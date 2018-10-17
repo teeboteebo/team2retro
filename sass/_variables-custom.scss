@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:300,400,600|Press+Start+2P|Source+Code+Pro|VT323');
+
+$primary-color: hsla(200, 90%, 40%, 1);
+$accent-brick: hsla(8, 88%, 34%, 1);
+$accent-orange: hsla(40, 90%, 40%, 1);
+$accent-green: hsla(140, 86%, 28%, 1);
+$accent-yellow: hsla(60, 65%, 46%, 1);
+$black: #000;
+$white: #fff;
+
+$font-vt323: 'VT323', monospace;
+$font-cursive: 'Press Start 2P', cursive;
+$font-ibm: 'IBM Plex Mono', monospace;
+$font-code: 'Source Code Pro', monospace;
+$font-family-base: $font-ibm;
+
+$img-path: '/assets/images';
