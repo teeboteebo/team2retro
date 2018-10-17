@@ -23,7 +23,7 @@ a, a:hover {
 
 
 .content-section {
-    padding: 5rem 3rem;
+    // padding: 5rem 3rem;
     h1 {
         font-family: $font-ibm;
         font-size: 5rem;
@@ -42,9 +42,12 @@ a, a:hover {
 
 .light-bg {
     background-color: $gray;
+    color: darken($accent-green, 30%);
 }
 
-/*just for develop*/
+article {
+    padding: 15px;
+}
 
 header {
     width: 100%;
