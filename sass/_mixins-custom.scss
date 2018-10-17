@@ -1,0 +1,6 @@
+@mixin link-bg-hover($bg-color) {
+    background-color: $bg-color;
+    &:hover {
+        background-color: lighten($bg-color, 10%);
+    }
+}

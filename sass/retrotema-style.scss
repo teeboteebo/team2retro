@@ -1,0 +1,104 @@
+@import 'originalbootstrap/bootstrap';
+
+@import "_variables-custom";
+
+@import "_mixins-custom";
+
+body {
+    background-color: $black;
+    color: $white;
+    font-family: $font-ibm;
+    background: url('#{$img-path}/bg.png') fixed no-repeat;
+    background-size: cover;
+}
+
+::selection {
+    background-color: $primary-color;
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.transparent-wrap {
+    background-color: transparentize(darken($primary-color, 40%), .2);
+}
+
+
+.content-section {
+    padding: 5rem 3rem;
+    h1 {
+        font-family: $font-ibm;
+        font-size: 5rem;
+    }
+}
+
+.logo {
+    font-family: $font-vt323;
+    color: lighten($accent-brick, 20%);
+    font-size: 3rem;
+    white-space: nowrap;
+    &:hover {
+        color: $accent-brick;
+    }
+}
+
+.light-bg {
+    background-color: $gray;
+}
+
+/*just for develop*/
+
+header {
+    width: 100%;
+    height: 60px;
+    nav {
+        &:after {
+            @include clearfix();
+        }
+
+        ul {
+            padding: 0;
+            margin: 0;
+            float: right;
+            font-family: $font-code;
+            li {
+                display: inline-block;
+                padding-left: 10px;
+                &:first-child {
+                    a {
+                        @include link-bg-hover($accent-brick);
+                    }
+                }
+
+                &:nth-child(2) {
+                    a {
+                        @include link-bg-hover($accent-orange);
+                    }
+                }
+
+                &:nth-child(3) {
+                    a {
+                        @include link-bg-hover($accent-green);
+                    }
+                }
+
+                a {
+                    display: block;
+                    padding: 7px 25px;
+                    color: $white;
+                    line-height: 40px;
+                    white-space: nowrap;
+                    text-decoration: none;
+
+                    &:hover {
+                        color: transparentize($color: $white, $amount: 0.05);
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
