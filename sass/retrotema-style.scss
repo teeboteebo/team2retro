@@ -16,6 +16,11 @@ body {
     background-color: $primary-color;
 }
 
+a, a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
 .transparent-wrap {
     background-color: transparentize(darken($primary-color, 40%), .2);
 }
@@ -24,15 +29,30 @@ body {
 .content-section {
     padding: 5rem 3rem;
     h1 {
-        font-family: $font-vt323;
+        font-family: $font-ibm;
         font-size: 5rem;
     }
+}
+
+.logo {
+    font-family: $font-vt323;
+    color: lighten($accent-brick, 20%);
+    font-size: 3rem;
+    white-space: nowrap;
+    &:hover {
+        color: $accent-brick;
+    }
+}
+
+.light-bg {
+    background-color: $gray;
 }
 
 /*just for develop*/
 
 header {
     width: 100%;
+    height: 60px;
     nav {
         &:after {
             @include clearfix();
