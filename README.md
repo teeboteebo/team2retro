@@ -9,10 +9,11 @@ Pull this repo and..
 Setup your SASS compiler! Output "style.css" as this is a dependency in the index.html.
 Set output path: [www/assets/css/style.css].
 
-Make sure you uncheck autocompile on bootstraps own .scss files.
-You should only have autocompile on "grupp2_custom_bootstrap.scss" in the root sass folder. Settings: Autocompile, Sourcemap, Autoprefix <- True!
+Set your compiler to listen for changes in "style.scss" in the root sass folder. Settings: Autocompile, Sourcemap, Autoprefix <- True!
 
 ALL overrides on the bootstrap !default values can be done in "_bootstrap-overrides.scss" which of course is imported in the main custom sass file mentioned above.
+
+To style your own components, make your own partial and import it in the style.scss file.
 
 #2 - Install express etc..
 NPM install (Get all depenencies (see package.json))
