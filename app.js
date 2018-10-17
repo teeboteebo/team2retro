@@ -10,6 +10,8 @@ app.use(express.static('www'));
 // Start the web server on port 3000
 app.listen(3000,() => console.log('Let us get cracking team2! Go do your magic on port 3000'));
 
+
+// start the sass compiler
 for(let conf of config.sass){
     new Sass(conf);
 }
