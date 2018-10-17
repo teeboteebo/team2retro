@@ -1,0 +1,60 @@
+{
+  "links": {
+    "sv": [
+      "<a href='#'>Start</a>",
+      "<a href='#'>Historik</a>",
+      "<a href='#'>Spela!</a>",
+      "<a href='#'>Rekord</a>"
+    ],
+    "en": [
+      "<a href='#'>Home</a>",
+      "<a href='#'>History</a>",
+      "<a href='#'>Play!</a>",
+      "<a href='#'>High-score</a>"
+    ]
+  },
+  "home": {
+    "sv": {
+      "heading": "Start",
+      "links": [
+        "<a href='#'>Länk 1</a>",
+        "<a href='#'>Länk 2</a>",
+        "<a href='#'>Länk 3</a>"
+      ]
+    },
+    "en": {
+      "heading": "Home",
+      "links": [
+        "<a href='#'>Link 1</a>",
+        "<a href='#'>Link 2</a>",
+        "<a href='#'>Link 3</a>"
+      ]
+    }
+  },
+  "history": {
+    "sv": {
+      "heading": "Historik",
+      "text": "Här är text..."
+    },
+    "en": {
+      "heading": "History",
+      "text": "Here's text..."
+    }
+  },
+  "play": {
+    "sv": {
+      "heading": "Spela!"
+    },
+    "en": {
+      "heading": "Play!"
+    }
+  },
+  "high-score": {
+    "sv": {
+      "heading": "Rekord"
+    },
+    "en": {
+      "heading": "High-score"
+    }
+  }
+}
