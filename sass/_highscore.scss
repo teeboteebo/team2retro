@@ -3,6 +3,22 @@
   font-family: 'Emulogic', sans-serif;
 }
 
-.highscore-rank {
+.highscore-rank,
+.highscore-name,
+.highscore-score {
   font-family: 'Emulogic', sans-serif;
+}
+
+.highscore-h2 {
+  font-family: 'Pixel-Miners', sans-serif;
+  color: $yellow;
+  text-shadow: 3px 3px $blue;
+}
+
+li {
+  margin-top: 5px;
+}
+
+.high-score {
+  background-color: black;
 }
