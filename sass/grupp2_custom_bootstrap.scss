@@ -3,3 +3,6 @@
 
 // Here we include the main (and original) boostrap.scss which in its turn imports the entire library.
 @import 'originalbootstrap/bootstrap';
+
+// Here we include the styling of the navbar
+@import '_navbar.scss';
