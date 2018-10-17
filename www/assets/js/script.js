@@ -21,7 +21,7 @@ function readData(objects) {
   let ulHomeLinks = $('<ul/>');
   for (let link of homeLinks) {
     let li = $('<li/>');
-    li.append('<a href="' + link['url'] + '"><h3>' + link['title'] + '</h3></a>');
+    li.append('<a href="' + link['url'] + '" target="_blank"><h3>' + link['title'] + '</h3></a>');
     ulHomeLinks.append(li);
   }
   $('.breakout-links').append(ulHomeLinks);
