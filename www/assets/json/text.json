@@ -1,0 +1,102 @@
+{
+  "links": {
+    "sv": [
+      {
+        "title": "Start",
+        "url": "#"
+      },
+      {
+        "title": "Historik",
+        "url": "#" 
+      },
+      {
+        "title": "Spela!",
+        "url": "#"
+      },
+      {
+        "title": "Rekord",
+        "url": "#"
+      }
+    ],
+    "en": [
+      {
+        "title": "Home",
+        "url": "#"
+      },
+      {
+        "title": "History",
+        "url": "#"
+      },
+      {
+        "title": "Play!",
+        "url": "#"
+      },
+      {
+        "title": "High-score",
+        "url": "#"
+      }
+    ]
+  },
+  "home": {
+    "sv": {
+      "heading": "Start",
+      "links": [
+        {
+          "title": "Breakout v1",
+          "url": "https://www.classicgame.com/game/BreakOut"
+        },
+        {
+          "title": "Breakout v2",
+          "url": "https://www.classicgame.com/game/BreakOut"
+        },
+        {
+          "title": "Breakout v3",
+          "url": "https://www.classicgame.com/game/BreakOut"
+        }
+      ]
+    },
+    "en": {
+      "heading": "Home",
+      "links": [
+        {
+          "title": "Breakout v1",
+          "url": "https://www.classicgame.com/game/BreakOut"
+        },
+        {
+          "title": "Breakout v2",
+          "url": "https://www.classicgame.com/game/BreakOut"
+        },
+        {
+          "title": "Breakout v3",
+          "url": "https://www.classicgame.com/game/BreakOut"
+        }
+      ]
+    }
+  },
+  "history": {
+    "sv": {
+      "heading": "Historik",
+      "text": "Här är text..."
+    },
+    "en": {
+      "heading": "History",
+      "text": "Here's text..."
+    }
+  },
+  "play": {
+    "sv": {
+      "heading": "Spela!"
+    },
+    "en": {
+      "heading": "Play!"
+    }
+  },
+  "high-score": {
+    "sv": {
+      "heading": "Rekord"
+    },
+    "en": {
+      "heading": "High-score"
+    }
+  }
+}
