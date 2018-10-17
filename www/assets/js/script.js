@@ -9,7 +9,7 @@ function readData(objects) {
   let ulNav = $('<ul/>');
   for (let link of navLinks) {
     let li = $('<li/>');
-    li.append(link);
+    li.append('<a href="' + link['url'] + '">' + link['title'] + '</a>');
     ulNav.append(li);
   }
   $('.navigation').append(ulNav);
@@ -21,7 +21,7 @@ function readData(objects) {
   let ulHomeLinks = $('<ul/>');
   for (let link of homeLinks) {
     let li = $('<li/>');
-    li.append(link);
+    li.append('<a href="' + link['url'] + '">' + link['title'] + '</a>');
     ulHomeLinks.append(li);
   }
   $('.home').append(ulHomeLinks);

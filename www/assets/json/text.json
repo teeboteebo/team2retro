@@ -1,33 +1,75 @@
 {
   "links": {
     "sv": [
-      "<a href='#'>Start</a>",
-      "<a href='#'>Historik</a>",
-      "<a href='#'>Spela!</a>",
-      "<a href='#'>Rekord</a>"
+      {
+        "title": "Start",
+        "url": "#"
+      },
+      {
+        "title": "Historik",
+        "url": "#" 
+      },
+      {
+        "title": "Spela!",
+        "url": "#"
+      },
+      {
+        "title": "Rekord",
+        "url": "#"
+      }
     ],
     "en": [
-      "<a href='#'>Home</a>",
-      "<a href='#'>History</a>",
-      "<a href='#'>Play!</a>",
-      "<a href='#'>High-score</a>"
+      {
+        "title": "Home",
+        "url": "#"
+      },
+      {
+        "title": "History",
+        "url": "#"
+      },
+      {
+        "title": "Play!",
+        "url": "#"
+      },
+      {
+        "title": "High-score",
+        "url": "#"
+      }
     ]
   },
   "home": {
     "sv": {
       "heading": "Start",
       "links": [
-        "<a href='#'>Länk 1</a>",
-        "<a href='#'>Länk 2</a>",
-        "<a href='#'>Länk 3</a>"
+        {
+          "title": "Länk 1",
+          "url": "https://www.classicgame.com/game/BreakOut"
+        },
+        {
+          "title": "Länk 2",
+          "url": "https://www.classicgame.com/game/BreakOut"
+        },
+        {
+          "title": "Länk 3",
+          "url": "https://www.classicgame.com/game/BreakOut"
+        }
       ]
     },
     "en": {
       "heading": "Home",
       "links": [
-        "<a href='#'>Link 1</a>",
-        "<a href='#'>Link 2</a>",
-        "<a href='#'>Link 3</a>"
+        {
+          "title": "Link 1",
+          "url": "https://www.classicgame.com/game/BreakOut"
+        },
+        {
+          "title": "Link 2",
+          "url": "https://www.classicgame.com/game/BreakOut"
+        },
+        {
+          "title": "Link 3",
+          "url": "https://www.classicgame.com/game/BreakOut"
+        }
       ]
     }
   },
