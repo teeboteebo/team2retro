@@ -4,3 +4,7 @@
         background-color: lighten($bg-color, 10%);
     }
 }
+
+@mixin default-transition() {
+    transition: all ease-in-out .3s;
+}

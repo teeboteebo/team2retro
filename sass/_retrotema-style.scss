@@ -1,20 +1,27 @@
-
-
 body {
     background-color: $black;
     color: $white;
     font-family: $font-ibm;
     background: url('#{$img-path}/bg.png') fixed no-repeat;
     background-size: cover;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
 }
 
 ::selection {
     background-color: $primary-color;
 }
 
-a, a:hover {
+a,
+a:hover {
     text-decoration: none;
     color: inherit;
+    @include default-transition();
 }
 
 .transparent-wrap {
@@ -23,10 +30,17 @@ a, a:hover {
 
 
 .content-section {
-    padding: 5rem 3rem;
     h1 {
         font-family: $font-ibm;
         font-size: 5rem;
+        margin: 1rem 0;
+
+        @include media-breakpoint-down(sm) {
+            & {
+                font-size: 2rem;
+                text-align: center;
+            }
+        }
     }
 }
 
@@ -35,6 +49,7 @@ a, a:hover {
     color: lighten($accent-brick, 20%);
     font-size: 3rem;
     white-space: nowrap;
+
     &:hover {
         color: $accent-brick;
     }
@@ -42,13 +57,16 @@ a, a:hover {
 
 .light-bg {
     background-color: $gray;
+    color: darken($accent-green, 30%);
 }
 
-/*just for develop*/
+article {
+    padding: 15px;
+}
 
 header {
     width: 100%;
-    height: 60px;
+
     nav {
         &:after {
             @include clearfix();
@@ -57,11 +75,13 @@ header {
         ul {
             padding: 0;
             margin: 0;
-            float: left;
-            font-family: 'Pixel-Miners', sans-serif;
+            float: right;
+            font-family: $font-code;
+
             li {
                 display: inline-block;
                 padding-left: 10px;
+
                 &:first-child {
                     a {
                         @include link-bg-hover($accent-brick);
@@ -100,6 +120,67 @@ header {
                     }
                 }
             }
+
+            @include media-breakpoint-down(sm) {
+                & {
+                    float: none;
+
+                    li {
+                        display: block;
+                        width: 100%;
+                        padding-left: 0;
+
+                        a {
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+footer {
+    width: 100%;
+    color: $accent-green;
+    padding: 30px 0;
+    font-family: $font-code;
+}
+
+.media-links {
+    dt {
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+    dd {
+        a {
+            display: inline-block;
+            i {
+                font-size: 3rem;
+                vertical-align: middle;
+            }
+        &:hover {
+            color: $accent-yellow;
+        }
+        }
+    }
+    @include media-breakpoint-down(xs) {
+        & {
+            margin-top: 1rem;
+            dt {
+                margin: .8rem auto;
+            }
+        }
+    }
+}
+
+.madeby {
+    font-size: .75rem;
+    margin-bottom: 0;
+    a {
+        color: $accent-brick;
+        &:hover {
+            color: $accent-green;
         }
     }
 }
