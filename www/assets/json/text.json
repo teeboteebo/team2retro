@@ -76,11 +76,11 @@
   "history": {
     "sv": {
       "heading": "Historik",
-      "text": "Här är text..."
+      "text": "Breakout är ett klassiskt arkadspel som utvecklades av Atari och lanserades i Maj 1976. Idén kom från Nolan Bushnell och Steve Bristow, som fick sin inspiration ifrån arkadspelet Pong. Själva spelet byggdes av Steve Wozniak med hjälp från Steve Jobs. Spelet översattes sedan till Atari 2600 och fick en uppföljare år 1978, Super Breakout, som senare kom att bli standardspelet till Atari 5200. I breakout så har spelaren ett lager med tegelstenar i den övre delen av skärmen, som skall förstöras med hjälp av en boll som rör sig både vågrätt och lodrätt över skärmen, och studsar mot kanterna. När en tegelsten träffas, så studsar bollen iväg och tegelstenen förstörs. Om bollen rör vid botten av skärmen så förlorar spelaren ett liv. För att förhindra detta, har spelaren ett racket som kan röras fram och tillbaka längs med botten av skärmen."
     },
     "en": {
       "heading": "History",
-      "text": "Here's text..."
+      "text": "Breakout is a really hip arcade game developed and published by Atari, Inc. way back in May of 1976. It was conceptualized by Nolan Bushnell and Steve Bristow, influenced by the 1972 Atari arcade game Pong, and built by Steve Wozniak aided by Steve Jobs. The game was ported to the Atari 2600 and was followed by a 1978 sequel, Super Breakout, which four years later became the pack-in game for the Atari 5200 console. In Breakout, a layer of bricks lines the top third of the screen. A ball travels across the screen, bouncing off the top and side walls of the screen. When a brick is hit, the ball bounces away and the brick is destroyed. The player loses a turn when the ball touches the bottom of the screen. To prevent this from happening, the player has a movable paddle to bounce the ball upward, keeping it in play."
     }
   },
   "play": {
