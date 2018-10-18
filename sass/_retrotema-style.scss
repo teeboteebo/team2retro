@@ -30,6 +30,7 @@ a:hover {
 
 
 .content-section {
+    // display: none;
     h1 {
         font-family: $font-ibm;
         font-size: 5rem;
@@ -99,13 +100,11 @@ header {
                         @include link-bg-hover($accent-green);
                     }
                 }
-
                 &:nth-child(4) {
                     a {
                         @include link-bg-hover($accent-yellow);
                     }
                 }
-
                 a {
                     display: block;
                     padding: 7px 25px;
