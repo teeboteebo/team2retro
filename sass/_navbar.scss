@@ -1,3 +1,7 @@
+// Variable created to decied the screen size.
+// Makes it eaiser to change the sizing for the devices.
+$md-size: 768px;
+
 header {
     width: 100%;
     height: 60px;
@@ -9,13 +13,21 @@ header {
         ul {
             padding: 0;
             margin: 0;
-            float: left;
             font-family: 'Pixel-Miners', sans-serif;
+            // Put the nav links to the left of the navbar.
+            float: left; 
+            // Takes away the float on the links.
+            // Calls for ($md-size). Puts the links into the "hamburger" button.
+            @media screen and (max-width: $md-size){
+                float: none;
+            }
             li {
                 display: inline-block;
                 padding: 5px 0 5px 10px;
-                @media screen and (max-width: 500px){
-                    width: 100px;
+                @media screen and (max-width: $md-size){
+                    width: 100%;
+                    display: block;
+                    text-align: center;
                 }
                 &:first-child {
                     a {
