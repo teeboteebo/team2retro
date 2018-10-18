@@ -1,0 +1,29 @@
+// We might want to put these in the header/navbar styling later
+
+.language-buttons {
+  font-family: emulogic;
+
+  button {
+    border: 3px solid $blue;
+    cursor: pointer;
+  }
+
+  .choose-sv {
+    background-color: $blue;
+    color: $yellow;
+    &:hover {
+      background-color: $yellow;
+      color: $blue;
+    }
+  }
+
+  .choose-en {
+    background-color: $gray;
+    color: $accent-brick;
+    &:hover {
+      background-color: $accent-brick;
+      color: $gray;
+    }
+  }
+
+}
