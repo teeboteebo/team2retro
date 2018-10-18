@@ -59,8 +59,8 @@ header {
         ul {
             padding: 0;
             margin: 0;
-            float: right;
-            font-family: $font-code;
+            float: left;
+            font-family: 'Press Start 2P', cursive;
             li {
                 display: inline-block;
                 padding-left: 10px;
@@ -79,6 +79,12 @@ header {
                 &:nth-child(3) {
                     a {
                         @include link-bg-hover($accent-green);
+                    }
+                }
+
+                &:nth-child(4) {
+                    a {
+                        @include link-bg-hover($accent-yellow);
                     }
                 }
 
