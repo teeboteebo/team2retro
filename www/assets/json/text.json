@@ -76,11 +76,19 @@
   "history": {
     "sv": {
       "heading": "Historik",
-      "text": "Här är text..."
+      "paragraphs": [
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum ullam nisi ex maxime qui, dicta odio praesentium obcaecati, sit blanditiis ad accusamus atque, assumenda commodi quae doloribus autem. A, quas? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus possimus dolorem distinctio recusandae sed.",
+        "Eveniet perspiciatis minus provident, numquam expedita consequatur aperiam quam vel exercitationem unde similique incidunt eum neque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit error, ipsum saepe voluptatibus ducimus eos, possimus obcaecati adipisci quaerat accusantium facilis laboriosam ea quas excepturi recusandae, enim vel alias aspernatur?",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta atque odit dolor sapiente, a quod ea blanditiis et, modi eius tempore quis hic tempora doloribus laborum exercitationem voluptates, non officiis! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam rem itaque temporibus repellat. Qui nesciunt earum a architecto mollitia quo, excepturi eius aliquam recusandae magnam, ipsa, vero in reiciendis facere."
+      ]
     },
     "en": {
       "heading": "History",
-      "text": "Here's text..."
+      "paragraphs": [
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum ullam nisi ex maxime qui, dicta odio praesentium obcaecati, sit blanditiis ad accusamus atque, assumenda commodi quae doloribus autem. A, quas? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus possimus dolorem distinctio recusandae sed.",
+        "Eveniet perspiciatis minus provident, numquam expedita consequatur aperiam quam vel exercitationem unde similique incidunt eum neque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit error, ipsum saepe voluptatibus ducimus eos, possimus obcaecati adipisci quaerat accusantium facilis laboriosam ea quas excepturi recusandae, enim vel alias aspernatur?",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta atque odit dolor sapiente, a quod ea blanditiis et, modi eius tempore quis hic tempora doloribus laborum exercitationem voluptates, non officiis! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam rem itaque temporibus repellat. Qui nesciunt earum a architecto mollitia quo, excepturi eius aliquam recusandae magnam, ipsa, vero in reiciendis facere."
+      ]
     }
   },
   "play": {

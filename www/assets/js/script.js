@@ -27,9 +27,16 @@ function readData(objects) {
   $('.breakout-links').append(ulHomeLinks);
 
   // HISTORY
-  let historyHeading = '<h2>' + objects.history[selectedLanguage].heading + '</h2>';
-  let historyText = '<p>' + objects.history[selectedLanguage].text + '</h2>';
-  $('.history').append(historyHeading + historyText);
+  let historyHeading = '<h2 class="mb-5">' + objects.history[selectedLanguage].heading + '</h2>';
+  $('.history-text').append(historyHeading);
+  let historyParagraphs = objects.history[selectedLanguage].paragraphs;
+  for (let paragraph of historyParagraphs) {
+    let p = $('<p class="my-4"/>');
+    p.append(paragraph);
+    $('.history-text').append(p);
+  }
+  
+  /* $('.history').append(historyHeading + historyParagraphs); */
 
   // PLAY
   let playHeading = '<h2>' + objects.play[selectedLanguage].heading + '</h2>';
@@ -45,7 +52,7 @@ $('.choose-sv').click(function() {
   $('.navigation').empty();
   $('.home-heading').empty();
   $('.breakout-links').empty();
-  $('.history').empty();
+  $('.history-text').empty();
   $('.play').empty();
   $('.high-score').empty();
   selectedLanguage = 'sv';
@@ -55,7 +62,7 @@ $('.choose-en').click(function() {
   $('.navigation').empty();
   $('.home-heading').empty();
   $('.breakout-links').empty();
-  $('.history').empty();
+  $('.history-text').empty();
   $('.play').empty();
   $('.high-score').empty();
   selectedLanguage = 'en';
