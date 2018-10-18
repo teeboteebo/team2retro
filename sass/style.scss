@@ -1,9 +1,30 @@
+//Custom variables that are created by team
+@import '_variables-custom';
+
+//Custom mixins that are created by team
+@import '_mixins-custom';
+
 // Here we can add our overrides to the bootstrap !default values. If this file is empty bootstrap goes default.
 @import '_bootstrap-overrides';
 
+//Here we add fonts
+@font-face {
+  font-family: 'Emulogic';
+  src: url('/emulogic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Pixel-Miners';
+  src: url('/Pixel-Miners.otf') format('truetype');
+}
 
 // Here we include the main (and original) boostrap.scss which in its turn imports the entire library.
 @import 'originalbootstrap/bootstrap';
 
-// Here we include the retro tema 
+// Here we include the retro tema
 @import 'retrotema-style';
+
+// Our own partials for components
+@import 'historik';
+@import '_highscore';
+@import '_navbar';

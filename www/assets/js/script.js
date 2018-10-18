@@ -16,15 +16,15 @@ function readData(objects) {
 
   // HOME
   let homeHeading = '<h2>' + objects.home[selectedLanguage].heading + '</h2>';
-  $('.home').append(homeHeading);
+  $('.home-heading').append(homeHeading);
   let homeLinks = objects.home[selectedLanguage].links;
   let ulHomeLinks = $('<ul/>');
   for (let link of homeLinks) {
     let li = $('<li/>');
-    li.append('<a href="' + link['url'] + '">' + link['title'] + '</a>');
+    li.append('<a href="' + link['url'] + '" target="_blank"><h3>' + link['title'] + '</h3></a>');
     ulHomeLinks.append(li);
   }
-  $('.home').append(ulHomeLinks);
+  $('.breakout-links').append(ulHomeLinks);
 
   // HISTORY
   let historyHeading = '<h2>' + objects.history[selectedLanguage].heading + '</h2>';
@@ -43,7 +43,8 @@ function readData(objects) {
 // SELECT LANGUAGE
 $('.choose-sv').click(function() {
   $('.navigation').empty();
-  $('.home').empty();
+  $('.home-heading').empty();
+  $('.breakout-links').empty();
   $('.history').empty();
   $('.play').empty();
   $('.high-score').empty();
@@ -52,7 +53,8 @@ $('.choose-sv').click(function() {
 })
 $('.choose-en').click(function() {
   $('.navigation').empty();
-  $('.home').empty();
+  $('.home-heading').empty();
+  $('.breakout-links').empty();
   $('.history').empty();
   $('.play').empty();
   $('.high-score').empty();
