@@ -14,7 +14,7 @@
         "url": "#"
       },
       {
-        "title": "Rekord",
+        "title": "Topplista",
         "url": "#"
       }
     ],
@@ -101,7 +101,7 @@
   },
   "high-score": {
     "sv": {
-      "heading": "Rekord"
+      "heading": "Topplista"
     },
     "en": {
       "heading": "High-score"
